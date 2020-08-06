@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.44f4dac0.chunk.css",
-    "main.js": "/portfolio/static/js/main.b56030b4.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b56030b4.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.f4cd4003.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.f4cd4003.js.map",
+    "main.js": "/portfolio/static/js/main.1ccd5268.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1ccd5268.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.e443b5c9.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.e443b5c9.js.map",
     "static/js/2.a489200a.chunk.js": "/portfolio/static/js/2.a489200a.chunk.js",
     "static/js/2.a489200a.chunk.js.map": "/portfolio/static/js/2.a489200a.chunk.js.map",
-    "static/css/3.689d27c7.chunk.css": "/portfolio/static/css/3.689d27c7.chunk.css",
-    "static/js/3.b0673950.chunk.js": "/portfolio/static/js/3.b0673950.chunk.js",
-    "static/js/3.b0673950.chunk.js.map": "/portfolio/static/js/3.b0673950.chunk.js.map",
+    "static/css/3.9d5c32ea.chunk.css": "/portfolio/static/css/3.9d5c32ea.chunk.css",
+    "static/js/3.b13f6de0.chunk.js": "/portfolio/static/js/3.b13f6de0.chunk.js",
+    "static/js/3.b13f6de0.chunk.js.map": "/portfolio/static/js/3.b13f6de0.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.5bc5b0dba82e8f644a0c0e76c7ffbff6.js": "/portfolio/precache-manifest.5bc5b0dba82e8f644a0c0e76c7ffbff6.js",
+    "precache-manifest.d3a7147505cf010d523ef1d23a17c311.js": "/portfolio/precache-manifest.d3a7147505cf010d523ef1d23a17c311.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/3.689d27c7.chunk.css.map": "/portfolio/static/css/3.689d27c7.chunk.css.map",
+    "static/css/3.9d5c32ea.chunk.css.map": "/portfolio/static/css/3.9d5c32ea.chunk.css.map",
     "static/css/main.44f4dac0.chunk.css.map": "/portfolio/static/css/main.44f4dac0.chunk.css.map",
     "static/js/2.a489200a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a489200a.chunk.js.LICENSE.txt",
     "static/media/landing.module.scss": "/portfolio/static/media/NEON.1621a4e7.TTF"
   },
   "entrypoints": [
-    "static/js/runtime-main.f4cd4003.js",
+    "static/js/runtime-main.e443b5c9.js",
     "static/js/2.a489200a.chunk.js",
     "static/css/main.44f4dac0.chunk.css",
-    "static/js/main.b56030b4.chunk.js"
+    "static/js/main.1ccd5268.chunk.js"
   ]
 }
