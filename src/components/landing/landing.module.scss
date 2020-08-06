@@ -160,3 +160,26 @@ span.bannername {
     transition-delay: 1.5s
   }
 }
+
+@media (orientation: portrait) {
+  // .links {
+  //   background: red
+  // }
+  //
+  .bannercontainer{
+    width: 60vw;
+    height: 50vh
+  }
+  .neonwrapper,
+  span.bannername{
+    font-size: 15vw;
+    width: 60vw;
+    height: 50vh
+  }
+  .links{
+    margin-top: 20%;
+    a{
+      font-size: 2.5vw
+    }
+  }
+}
