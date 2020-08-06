@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/abhishyaam/portfolio/static/css/main.44f4dac0.chunk.css",
+    "main.js": "/abhishyaam/portfolio/static/js/main.5f3b026c.chunk.js",
+    "main.js.map": "/abhishyaam/portfolio/static/js/main.5f3b026c.chunk.js.map",
+    "runtime-main.js": "/abhishyaam/portfolio/static/js/runtime-main.3d204a29.js",
+    "runtime-main.js.map": "/abhishyaam/portfolio/static/js/runtime-main.3d204a29.js.map",
+    "static/js/2.a489200a.chunk.js": "/abhishyaam/portfolio/static/js/2.a489200a.chunk.js",
+    "static/js/2.a489200a.chunk.js.map": "/abhishyaam/portfolio/static/js/2.a489200a.chunk.js.map",
+    "static/css/3.0aa5ada1.chunk.css": "/abhishyaam/portfolio/static/css/3.0aa5ada1.chunk.css",
+    "static/js/3.b0673950.chunk.js": "/abhishyaam/portfolio/static/js/3.b0673950.chunk.js",
+    "static/js/3.b0673950.chunk.js.map": "/abhishyaam/portfolio/static/js/3.b0673950.chunk.js.map",
+    "index.html": "/abhishyaam/portfolio/index.html",
+    "precache-manifest.b666ade3b842271ee1dee439ee35d4d9.js": "/abhishyaam/portfolio/precache-manifest.b666ade3b842271ee1dee439ee35d4d9.js",
+    "service-worker.js": "/abhishyaam/portfolio/service-worker.js",
+    "static/css/3.0aa5ada1.chunk.css.map": "/abhishyaam/portfolio/static/css/3.0aa5ada1.chunk.css.map",
+    "static/css/main.44f4dac0.chunk.css.map": "/abhishyaam/portfolio/static/css/main.44f4dac0.chunk.css.map",
+    "static/js/2.a489200a.chunk.js.LICENSE.txt": "/abhishyaam/portfolio/static/js/2.a489200a.chunk.js.LICENSE.txt",
+    "static/media/landing.module.scss": "/abhishyaam/portfolio/static/media/NEON.1621a4e7.TTF"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d204a29.js",
+    "static/js/2.a489200a.chunk.js",
+    "static/css/main.44f4dac0.chunk.css",
+    "static/js/main.5f3b026c.chunk.js"
+  ]
+}
