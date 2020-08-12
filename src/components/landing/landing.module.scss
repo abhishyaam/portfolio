@@ -31,13 +31,13 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  animation: delayed-fadeIn 6s linear ;
-  // opacity: 0
-  // animation:  fadeIn 0.5s;
+  // opacity: 0;
+  animation:  flicker 0.5s ease-in 4;
 
 }
 
 .landingContainer {
+  animation:fadeIn 3s;
   // background-color: red
   position: relative;
   width: 50vw;
@@ -52,6 +52,7 @@
   height: 100%;
   border: 0.4vw solid rgb(0,188,212);
   border-radius: 2vw;
+  // animation: fadeIn 3s linear;
 }
 
 .landingContainer span.bannerName:nth-child(2) {
@@ -100,7 +101,7 @@
   // margin-top: 20%;
   align-items: center;
   border: 0.4vw solid rgb(0,188,212);
-  animation: flicker 0.5s linear 2s 3, fadeIn 2s ease-in;
+  animation: flicker 0.5s linear 3s 3, delayed-fadeIn 3s ease-in;
   font-size: 2vw;
   .bannerBorder{
     border: 0.4vw solid rgb(0,188,212);
