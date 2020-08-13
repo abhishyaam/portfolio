@@ -6,23 +6,12 @@
 
 .landing {
   position: absolute;
-  // background-color: red;
   width: 100%;
   height: 100%;
-  // border: 5px solid;
-  // padding: 5%;
   border-radius: 2vw;
-
-  // .landing:nth-child(1){
-  //   color: red
-  // }
 }
 
-.neonwrapper > span{
-  // opacity: 0;
-  // font-size: 0;
-  // animation: appearText 1s linear 1 6s;
-}
+
 
  .bannerName {
   font-size: 8vw;
@@ -52,27 +41,20 @@
   height: 100%;
   border: 0.4vw solid rgb(0,188,212);
   border-radius: 2vw;
-  // animation: fadeIn 3s linear;
+
 }
 
 .landingContainer span.bannerName:nth-child(2) {
-  // animation: fadeIn 6.5s linear;
-  // animation: appearText 1s linear ;
-
   filter: blur(5px);
 }
 
 .landingContainer span.bannerName:nth-child(3) {
-  // animation: appearText 6s linear ;
-
-  // animation: fadeIn 6.5s linear;
-
   filter: blur(10px);
 }
 
 .links span.bannerBorder:nth-child(1) {
   filter: blur(20px);
-  // animation: appearText 6s linear ;
+
 
 }
 
@@ -157,7 +139,7 @@
     left: -100%;
     width: 100%;
     height: 2px;
-    // background: linear-gradient(90deg,transparent,rgb(0,188,212));
+    background: linear-gradient(90deg,transparent,rgb(0,188,212));
     // background-color : red
     // animation: flicker 1s linear 5s;
 

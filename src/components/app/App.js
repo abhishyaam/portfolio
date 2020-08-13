@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Landing from '../landing/landing.lazy'
-
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 const loader = document.querySelector('.loader-container');
 const root = document.querySelector('#root');
 class App extends React.Component{
@@ -23,7 +23,9 @@ class App extends React.Component{
   render() {
     return (
       <div className="App">
-        <Landing name="Abhi"/>
+      <Router>
+      <Landing name="Abhi"/>
+      </Router>
       </div>
     );
   }
