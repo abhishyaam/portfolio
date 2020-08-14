@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Landing from "../landing/landing.lazy";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, hashHistory } from "react-router-dom";
 import Photography  from '../Photography/Photography.lazy'
 const loader = document.querySelector(".loader-container");
 const root = document.querySelector("#root");
@@ -24,13 +24,13 @@ class App extends React.Component {
   render() {
     return (
 
-        <Router>
+        <Router history={hashHistory}>
           <Switch>
           <Route path="/portfolio" render={(props) => <Landing {...props} name = "Abhi"/>}/>
             <Route path="/photography" render={(props) => <Photography {...props} name = "Abhi"/>}/>
           </Switch>
         </Router>
-    
+
     );
   }
 }
