@@ -38,34 +38,33 @@ class landing extends React.Component {
 
   render() {
     return (
-      <div className={styles.landingContainer}>
-        <div className={styles.bannerName}>{this.props.name}</div>
-        <span className={styles.bannerName}>{this.props.name}</span>
-        <span className={styles.bannerName}>{this.props.name}</span>
-        <span className={styles.bannerName}></span>
-        <span className={styles.bannerName}></span>
-        <div className={styles.links}>
-          <span className={styles.bannerBorder}></span>
-          <span className={styles.bannerBorder}></span>
-          <div className={styles.linksContainer}>
+      <div className="App">
+        <div className={styles.landingContainer}>
+          <div className={styles.bannerName}>{this.props.name}</div>
+          <span className={styles.bannerName}>{this.props.name}</span>
+          <span className={styles.bannerName}>{this.props.name}</span>
+          <span className={styles.bannerName}></span>
+          <span className={styles.bannerName}></span>
+          <div className={styles.links}>
+            <span className={styles.bannerBorder}></span>
+            <span className={styles.bannerBorder}></span>
+            <div className={styles.linksContainer}>
+              <a href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <Link to="/"> Coder</Link>
+              </a>
 
               <a href="#">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
-                <Link to="/"> Coder
-                </Link>
+                <Link to="/photography"> Photographer</Link>
               </a>
-
-            <a href="#">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <Link to="/photography"> Photographer
-              </Link>
-            </a>
+            </div>
           </div>
         </div>
       </div>

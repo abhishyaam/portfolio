@@ -23,14 +23,14 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div className="App">
+
         <Router>
           <Switch>
           <Route path="/portfolio" render={(props) => <Landing {...props} name = "Abhi"/>}/>
             <Route path="/photography" render={(props) => <Photography {...props} name = "Abhi"/>}/>
           </Switch>
         </Router>
-      </div>
+    
     );
   }
 }

@@ -110,12 +110,16 @@ class Photography extends React.Component {
         src: "https://source.unsplash.com/1600x900/?lebanon",
         alt: "lebanon",
       },
+      {
+        src: "https://source.unsplash.com/1600x900/?sunset",
+        alt: "sunset",
+      },
     ];
     let divs = [];
     images.forEach((image,i) => {
       divs.push(
         <div key={i} className={styles.galleryContainer}>
-          <div className={styles['galleryItem']}>
+          <div className={styles.galleryItem}>
             <div className={styles.image}>
               <img src={image.src} alt={image.alt} />
             </div>
@@ -129,7 +133,13 @@ class Photography extends React.Component {
   render() {
     return (
       <div className={styles.Photography} data-testid="Photography">
-      <h1>Some of my works</h1>
+      <div className={styles.pageTitle}>
+        {this.props.name}
+        <span>{this.props.name}</span>
+      </div>
+      <div className={styles.pageDescription}>
+        Some of my work
+      </div>
         <div className={styles.container}>{this.createImages()}</div>
       </div>
     );
